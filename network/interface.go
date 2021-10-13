@@ -37,5 +37,4 @@ type OrgIf interface {
 	Name() string   // 返回组织的名称
 	Domain() string // 返回组织所在域
 	MSPID() string  // 返回组织的成员管理ID
-	test() string   //test connect
 }
